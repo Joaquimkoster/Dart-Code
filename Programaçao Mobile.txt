@@ -5,18 +5,14 @@ O Flutter
 é um framework de desenvolvimento de interface de usuário (UI) de código aberto criado pelo Google, utilizado para construir aplicativos compilados nativamente para mobile (Android, iOS), web e desktop a partir de uma única base de código.
 
 Você vai precisar:
-
-Visual Studio Code ou Android Studio
-
+- Visual Studio Code ou Android Studio
 Para iOS:
-Xcode (só roda em Mac)
-
-⚠️ Importante:
-👉 Para publicar em iOS, você precisa de um Mac (ou usar serviços na nuvem)
+- Xcode (só roda em Mac)
+Importante:
+- Para publicar em iOS, você precisa de um Mac (ou usar serviços na nuvem)
 
 Se o app tiver login, banco de dados, etc:
-
 Opções:
-Firebase (mais fácil)
-Supabase
-Backend próprio (Node.js, Python, etc.)
+- Firebase
+- Supabase
+- Backend próprio (Node.js, Python, etc.)
