@@ -1,25 +1,31 @@
-# 🎯 Meus Estudos de Dart
+# 🎯 Dart Programming Studies
 
-Repositório dedicado ao aprendizado da linguagem **Dart**, explorando desde a sintaxe básica até conceitos avançados de Programação Orientada a Objetos (POO) e Assincronismo.
+A comprehensive repository dedicated to mastering the **Dart** language. This project covers everything from basic syntax to advanced asynchronous programming and Object-Oriented Programming (OOP) principles.
 
 
 
-## 🚀 Sobre o Dart
-O Dart é uma linguagem desenvolvida pelo Google, otimizada para a criação de interfaces rápidas e fluidas. É a base do framework **Flutter**.
+## 📖 About Dart
+Dart is a client-optimized language developed by Google for fast apps on any platform. It is the powerhouse behind the **Flutter** framework, designed for high-performance UI and developer productivity.
 
-## 📁 Estrutura do Repositório
+## 🚀 Key Learning Milestones
 
-| Arquivo | Descrição | Conceito Chave |
-| :--- | :--- | :--- |
-| `variaveis.dart` | Tipagem, `var`, `final` e `const` | Fundamentos |
-| `null_safety.dart` | Variáveis anuláveis (`?`) e operadores | Segurança |
-| `colecoes.dart` | Listas, Mapas e Sets | Estrutura de Dados |
-| `assincronismo.dart` | `Future`, `async` e `await` | Concorrência |
-| `classes.dart` | Classes, Construtores e Métodos | POO |
+- [x] **Foundations:** Variable types (`int`, `double`, `String`, `bool`) and Type Inference (`var`).
+- [x] **Null Safety:** Working with nullable types (`?`) and preventing runtime crashes.
+- [x] **Collections:** Managing data with `List` (Arrays) and `Map` (Key-Value pairs).
+- [x] **Asynchrony:** Handling non-blocking operations with `Future`, `async`, and `await`.
+- [x] **OOP:** Creating Blueprints with `Classes`, `Constructors`, and `Methods`.
+- [ ] **Advanced:** Mixins, Generics, and Streams (In Progress).
 
-## 🛠️ Como rodar os exemplos
-Certifique-se de ter o [Dart SDK](https://dart.dev/get-dart) instalado.
+---
 
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/seu-usuario/nome-do-repo.git](https://github.com/seu-usuario/nome-do-repo.git)
+## 📁 Project Structure
+
+```text
+├── bin/
+│   ├── variables.dart      # Type declarations and inference
+│   ├── null_safety.dart    # Nullable vs Non-nullable logic
+│   ├── collections.dart    # Lists and Maps manipulation
+│   ├── async_demo.dart     # Future and delayed execution
+│   └── oop_basics.dart     # Classes and Object instantiation
+├── pubspec.yaml            # Project metadata and dependencies
+└── README.md               # Documentation
