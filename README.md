@@ -22,10 +22,10 @@ Make sure you have the **Dart SDK** installed. Unlike Java, Dart does not requir
 
 In your terminal, run the desired file directly:
 
-# To run a specific file
+ To run a specific file
 dart run FileName.dart
 
-# To run a project with a pubspec.yaml
+ To run a project with a pubspec.yaml
 dart run bin/main.dart
 
 ## 🎯 Study Goals
@@ -44,12 +44,7 @@ dart run bin/main.dart
 
     [ ] Streams and Reactive Logic
 
-    "Optimized for UI, productive for developers." — The Dart philosophy.
+"Optimized for UI, productive for developers." — The Dart philosophy.
 
 
----
 
-### 💡 Dica de organização:
-Para que o seu repositório fique bem profissional, recomendo colocar seus arquivos dentro de uma pasta chamada `bin/`. O Dart reconhece essa pasta como o local padrão para códigos executáveis.
-
-**Gostaria que eu gerasse um exemplo de exercício de "Exception Handling" (Try/Catch) para você inaugurar essa seção no seu Lab?**
