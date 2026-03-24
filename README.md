@@ -1,31 +1,56 @@
-# 🎯 Dart Programming Studies
+# 🎯 Dart Fundamentals Lab
 
-A comprehensive repository dedicated to mastering the **Dart** language. This project covers everything from basic syntax to advanced asynchronous programming and Object-Oriented Programming (OOP) principles.
+A space dedicated to learning the **Dart** language, from basic syntax to the pillars of **Object-Oriented Programming (OOP)**. This repository contains experimental code and logic exercises.
 
 
 
-## 📖 About Dart
-Dart is a client-optimized language developed by Google for fast apps on any platform. It is the powerhouse behind the **Flutter** framework, designed for high-performance UI and developer productivity.
+## 🏗️ Repository Structure
+The `.dart` files focus on the following concepts:
 
-## 🚀 Key Learning Milestones
+* **Syntax and Types:** Handling primitive types (`int`, `double`), Strings, and Type Inference (`var`).
+* **Null Safety:** Understanding nullable types (`?`), the bang operator (`!`), and sound null safety to prevent runtime crashes.
+* **Control Structures:** Decision making (`if/else`, `switch`) and loops (`for`, `while`, `forEach`).
+* **Object-Oriented Programming (OOP):** Classes, objects, methods, named constructors, and the use of `this`.
 
-- [x] **Foundations:** Variable types (`int`, `double`, `String`, `bool`) and Type Inference (`var`).
-- [x] **Null Safety:** Working with nullable types (`?`) and preventing runtime crashes.
-- [x] **Collections:** Managing data with `List` (Arrays) and `Map` (Key-Value pairs).
-- [x] **Asynchrony:** Handling non-blocking operations with `Future`, `async`, and `await`.
-- [x] **OOP:** Creating Blueprints with `Classes`, `Constructors`, and `Methods`.
-- [ ] **Advanced:** Mixins, Generics, and Streams (In Progress).
+* **Collections:** Working with `List` (dynamic arrays), `Map` (Key-Value pairs), and `Set`.
+
+* **Asynchronous Programming:** Using `Future`, `async`, and `await` to build robust, non-blocking code.
+
+
+## 💻 How to Run the Code
+Make sure you have the **Dart SDK** installed. Unlike Java, Dart does not require a manual compilation step (`javac`) to run scripts during development.
+
+In your terminal, run the desired file directly:
+
+```bash
+# To run a specific file
+dart run FileName.dart
+
+# To run a project with a pubspec.yaml
+dart run bin/main.dart
+
+🎯 Study Goals
+
+    [x] Variables and Conditional Structures
+
+    [x] Loops and Iterations
+
+    [x] Sound Null Safety (Prevention of null errors)
+
+    [ ] OOP Pillars (Inheritance, Mixins, Polymorphism)
+
+    [ ] Functional Programming (Lambdas and Anonymous Functions)
+
+    [ ] Exception Handling (Try/Catch/Finally)
+
+    [ ] Streams and Reactive Logic
+
+    "Optimized for UI, productive for developers." — The Dart philosophy.
+
 
 ---
 
-## 📁 Project Structure
+### 💡 Dica de organização:
+Para que o seu repositório fique bem profissional, recomendo colocar seus arquivos dentro de uma pasta chamada `bin/`. O Dart reconhece essa pasta como o local padrão para códigos executáveis.
 
-```text
-├── bin/
-│   ├── variables.dart      # Type declarations and inference
-│   ├── null_safety.dart    # Nullable vs Non-nullable logic
-│   ├── collections.dart    # Lists and Maps manipulation
-│   ├── async_demo.dart     # Future and delayed execution
-│   └── oop_basics.dart     # Classes and Object instantiation
-├── pubspec.yaml            # Project metadata and dependencies
-└── README.md               # Documentation
+**Gostaria que eu gerasse um exemplo de exercício de "Exception Handling" (Try/Catch) para você inaugurar essa seção no seu Lab?**
