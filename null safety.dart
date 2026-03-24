@@ -1,0 +1,2 @@
+String? nome;                                                                   // Nullable: Can be null (the '?' allows the empty state)
+String sobrenome = "Koster";                                                    // Non-nullable: Cannot be null, must have an assigned value
