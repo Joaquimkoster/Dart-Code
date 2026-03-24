@@ -22,14 +22,13 @@ Make sure you have the **Dart SDK** installed. Unlike Java, Dart does not requir
 
 In your terminal, run the desired file directly:
 
-```bash
 # To run a specific file
 dart run FileName.dart
 
 # To run a project with a pubspec.yaml
 dart run bin/main.dart
 
-🎯 Study Goals
+## 🎯 Study Goals
 
     [x] Variables and Conditional Structures
 
